@@ -41,14 +41,15 @@ Al ejecutar el Playbook deberá proporcionar la contraseña de root ("vagrant").
 
 6. Verificar la instalación de Docker y Docker Compose en los nodos, mediante comandos Ad-hoc de Ansible
 ```
-ansible nodes -i myhosts -m command -a 'docker ps'
+ansible nodes -i myhosts -m command -a 'docker version'
 ```
 ó ingresar a la vm y comprobarlo con línea de comandos
 ```
 ssh vm1
 ```
 ```
-docker ps
+docker version
+docker-compose version
 ```
 
 7. Jugar con las VMs mediante los comandos disponibles en Ansible
