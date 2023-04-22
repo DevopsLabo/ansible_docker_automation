@@ -22,10 +22,7 @@ git clone https://github.com/DevopsLabo/ansible_docker_automation.git
 
 2. Ejecutar el aprovisionamiento, desde el directorio del proyecto
 ```
-cd ./ansible_docker_automation
-```
-```
-vagrant up
+cd ./ansible_docker_automation && vagrant up
 ```
 
 4. Controlar las VMs creadas verficando mediante comandos `ping` (por ejemplo a ansible-ctrl)
