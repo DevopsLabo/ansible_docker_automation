@@ -12,7 +12,7 @@ Se incluyen archivos:
 - **playbook-docker.yml**: Libro de tareas de Ansible para desplegar operaciones en hosts
 
 ## Prerequisitos
-- Práctica realizada en el proyecto vagrant_vm_provisioning donde se explica la provisión de VMs mediante Vagrant.
+- Práctica realizada en el proyecto [vagrant_vm_provisioning](https://github.com/DevopsLabo/vagrant_vm_provisioning) donde se explica la provisión de VMs mediante Vagrant.
 
 ## Paso a paso
 1. Clonar el repositorio en un directorio local
