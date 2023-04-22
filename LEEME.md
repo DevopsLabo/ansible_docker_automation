@@ -38,8 +38,7 @@ ping 192.168.56.10
 vagrant ssh ansible-ctrl
 ```
 ```
-cd /vagrant/ansible
-ansible-playbook -i myhosts -K playbook-docker.yml
+cd /vagrant/ansible && ansible-playbook -i myhosts -K playbook-docker.yml
 ```
 Al ejecutar el Playbook deberá proporcionar la contraseña de root ("vagrant").
 
