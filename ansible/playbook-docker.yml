@@ -1,0 +1,25 @@
+- hosts: nodes
+  become: yes
+  tasks:
+  - name: install docker
+    apt:
+      name: docker.io
+      state: latest
+      update_cache: yes
+      
+  - name: install docker-compose
+    apt:
+      name: docker-compose
+      state: latest
+      update_cache: yes
+
+  - name: install python-simplejson
+    apt:
+      name: python-simplejson
+      state: latest
+      update_cache: yes      
+
+  - name: add user to docker group
+    user:
+      name: vagrant
+      groups: docker

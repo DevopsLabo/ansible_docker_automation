@@ -1,0 +1,6 @@
+[control]
+ansible-ctrl
+
+[nodes] 
+vm1
+vm2
