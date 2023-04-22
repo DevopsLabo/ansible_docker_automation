@@ -3,7 +3,7 @@
 La idea es realizar el aprovisionamiento de un entorno Docker en VMs, utilizando las características de IaC ofrecidas por [Ansible](https://docs.ansible.com/).
 Se crean 3 VMs:
 - ansible-ctrl: nodo de control Ansible (herramientas CLI)
-- vm1 y vm2: nodos gestionados por el nodo ansible-ctrl
+- vm1 y vm2: nodos gestionados por el nodo ansible-ctrl, con entorno de ejecución Docker
 
 ## Qué se incluye?
 Se incluyen archivos:
