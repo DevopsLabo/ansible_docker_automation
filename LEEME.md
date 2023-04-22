@@ -50,6 +50,7 @@ ssh vm1
 ```
 docker version
 docker-compose version
+docker run hello-world
 ```
 
 7. Jugar con las VMs mediante los comandos disponibles en Ansible
